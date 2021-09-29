@@ -1,0 +1,56 @@
+
+.f {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    padding: 1rem;
+
+    &--title {
+        margin: 1rem 0;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        padding-bottom: 2rem;
+
+        &__bloc {
+            width: 90%;
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 3rem;
+            background-color: $light-primary;
+            border-radius: 20px;
+            padding-left: 2rem;
+            @include shadow-box;
+            
+
+            &--num {
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 1.5rem;
+                height: 1.5rem;
+                border-radius: 50%;
+                background-color: $primary-color;
+                color: white;
+                left: -.75rem;
+            }
+
+            i {
+                text-align: center;
+                margin: 1rem;
+                width: 1rem;
+                color: $grey-color;
+            }
+            &--text {
+                font-weight: bold;
+                padding-left: .5rem;
+            }
+        }
+    }
+}

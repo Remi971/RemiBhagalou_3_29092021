@@ -1,0 +1,11 @@
+.btn {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    margin: .5rem auto;
+    font-size: bold;
+    color: white;
+    background: linear-gradient($secondary-color, $primary-color);
+    outline: none;
+    border: none;
+    @include shadow-box;
+}

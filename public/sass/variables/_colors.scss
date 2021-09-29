@@ -1,0 +1,10 @@
+$primary-color: #9356DC;
+$light-primary: lighten($primary-color, 38%);
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+$bg-color: #e9e9e9;
+$grey-color: #636363;
+
+@mixin shadow-box {
+    box-shadow: 2px 2px 5px $grey-color;
+}
