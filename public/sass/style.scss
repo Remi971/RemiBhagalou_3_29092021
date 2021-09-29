@@ -1,0 +1,23 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Shrikhand&display=swap');
+
+// colors
+$primary-color: #9356DC;
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+
+// General
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: 'Shrikhand', cursive;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
