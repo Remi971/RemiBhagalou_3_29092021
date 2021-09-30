@@ -1,0 +1,29 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+
+    &--title {
+        padding: 1rem 2rem;
+    }
+    &__list {
+        margin: 1rem;
+        list-style: none;
+        text-decoration: none;
+
+        &--item {
+            display: flex;
+            align-items: center;
+            margin: .5rem;
+            cursor: pointer;
+
+            i {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: .5rem;
+                width: 1rem;
+            }
+        }
+    }
+}

@@ -4,8 +4,16 @@
     margin: .5rem auto;
     font-size: bold;
     color: white;
-    background: linear-gradient($secondary-color, $primary-color);
+    background: $gradient;
     outline: none;
     border: none;
-    @include shadow-box;
+    cursor: pointer;
+    @include shadow-box(5px, 0%);
+    opacity: 1;
+    transition: all ease .3s;
+
+    &:hover {
+        @include shadow-box(10px, 30%);
+        background: $light-gradient;
+    }
 }

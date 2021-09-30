@@ -25,7 +25,7 @@
             background-color: $light-primary;
             border-radius: 20px;
             padding-left: 2rem;
-            @include shadow-box;
+            @include shadow-box(5px, 0%);
             
 
             &--num {
