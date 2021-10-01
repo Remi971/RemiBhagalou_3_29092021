@@ -8,8 +8,10 @@
     background-color: $light-primary;
     padding-bottom: 2rem;
     &--title {
+        width: 100%;
         text-align: center;
-        margin: .25rem auto;
+        padding: .5rem auto;
+        box-shadow: 0 2px 4px grey;
     }
     &__location {
         display: flex;

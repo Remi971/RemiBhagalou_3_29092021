@@ -1,0 +1,29 @@
+.coeur {
+    background: $gradient-reverse;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        transition: all ease .4s;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('/assets/coeur.png');
+        background-size: cover;
+    }
+    &:hover {
+        &::before{
+            height: 0%;
+        }
+}
+}
