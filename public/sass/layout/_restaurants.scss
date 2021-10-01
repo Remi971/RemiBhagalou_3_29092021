@@ -1,5 +1,6 @@
 .resto {
     padding: .5rem .25rem 2rem .25rem;
+    background-color: $light-primary;
     &--title {
         margin: 1rem 0;
     }
@@ -64,6 +65,9 @@
                 justify-content: center;
                 grid-area: text-card;
                 position: relative;
+                h3:first-letter {
+                    text-transform: capitalize;
+                }
                 &--coeur {
                     position: absolute;
                     top: 20%;

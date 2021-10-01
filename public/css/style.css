@@ -161,6 +161,7 @@
 
 .resto {
   padding: .5rem .25rem 2rem .25rem;
+  background-color: #faf7fd;
 }
 
 .resto--title {
@@ -265,6 +266,10 @@
   position: relative;
 }
 
+.resto__container__card--txt h3:first-letter {
+  text-transform: capitalize;
+}
+
 .resto__container__card--txt--coeur {
   position: absolute;
   top: 20%;
@@ -281,6 +286,7 @@
 
 .footer--title {
   padding: 1rem 2rem;
+  letter-spacing: 2px;
 }
 
 .footer__list {
@@ -369,6 +375,142 @@
 
 .coeur:hover::before {
   height: 0%;
+}
+
+.containerMenu {
+  position: relative;
+}
+
+.headerMenu__title {
+  position: relative;
+}
+
+.headerMenu__title a {
+  position: absolute;
+  left: 1rem;
+  top: .75rem;
+  color: #5f5f5f;
+  width: 1rem;
+  font-size: 1.5rem;
+}
+
+.headerMenu__title--txt {
+  text-align: center;
+}
+
+.headerMenu__img {
+  width: 100%;
+}
+
+.headerMenu__img img {
+  width: 100%;
+  height: auto;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nom {
+  text-transform: uppercase;
+  color: #5c5c5c;
+  font-weight: 400;
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.nom::before {
+  content: '';
+  position: absolute;
+  width: 3.5rem;
+  height: 3px;
+  bottom: -.5rem;
+  left: 0;
+  background-color: #99E2D0;
+}
+
+.card {
+  width: 100%;
+  border-radius: 15px;
+  background-color: white;
+  padding: 1rem 0 1rem 1rem;
+  -webkit-box-shadow: 2px 2px 4px #4a4a4a;
+          box-shadow: 2px 2px 4px #4a4a4a;
+  position: relative;
+  left: 0;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+  overflow: hidden;
+}
+
+.card--txt {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card--prix {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #99E2D0;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+.card:hover {
+  padding-right: 8rem;
+}
+
+.card:hover > .card--prix {
+  -webkit-transform: translateX(-6rem);
+          transform: translateX(-6rem);
+}
+
+.card:hover::before {
+  width: 6rem;
+}
+
+.carte {
+  position: relative;
+  width: 100%;
+  background-color: #faf7fd;
+  border-radius: 3rem 3rem 0 0;
+  top: -3rem;
+  padding: 1rem;
+}
+
+.carte__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.carte__title--txt::first-letter {
+  text-transform: capitalize;
+}
+
+.carte__title--coeur {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 * {
