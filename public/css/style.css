@@ -112,6 +112,7 @@
   padding-left: 2rem;
   -webkit-box-shadow: 2px 2px 5px #636363;
           box-shadow: 2px 2px 5px #636363;
+  cursor: pointer;
   -webkit-transition: all ease .4s;
   transition: all ease .4s;
 }
@@ -120,10 +121,8 @@
   background-color: #ece1f9;
 }
 
-.f__container__bloc:hover > .f__container__bloc--num {
-  background-color: #ff93e1;
-  -webkit-box-shadow: 2px 2px 2px #4a4a4a;
-          box-shadow: 2px 2px 2px #4a4a4a;
+.f__container__bloc:hover > i {
+  color: #9356DC;
 }
 
 .f__container__bloc--num {
