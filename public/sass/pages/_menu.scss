@@ -54,10 +54,11 @@
 
 .card {
     width: 100%;
+    max-width: 800px;
     border-radius: 15px;
     background-color: white;
     padding: 1rem 3rem 1rem 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
     @include shadow-box(4px, 10%);
     position: relative;
     left: 0;
