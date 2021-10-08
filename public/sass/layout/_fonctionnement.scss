@@ -6,7 +6,7 @@
     padding: 1rem;
 
     &--title {
-        margin: 1rem 0;
+        margin: 1rem;
     }
 
     &__container {
@@ -26,6 +26,7 @@
             background-color: $light-primary;
             border-radius: 20px;
             padding-left: 2rem;
+            padding-right: .5rem;
             @include shadow-box(5px, 0%);
             cursor: pointer;
             transition: all ease .4s;
@@ -61,6 +62,19 @@
                 font-weight: bold;
                 padding-left: .5rem;
             }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .f__container {
+        flex-direction: row;
+        column-gap: 2rem;
+        padding: 1.5rem;
+
+        &__bloc {
+            max-width: 400px;
+            min-width: 225px;
         }
     }
 }

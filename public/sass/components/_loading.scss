@@ -8,7 +8,7 @@
     top: 0;
     position: fixed;
     z-index: 5;
-    animation: disappear 4s ease forwards;
+    animation: disappear 2s ease forwards;
     visibility: visible;
 }
 
@@ -22,7 +22,6 @@
   margin: 60px auto;
   font-size: 10px;
   position: relative;
-  text-indent: -9999em;
   border-top: 1.1em solid rgb(165, 165, 165);
   border-right: 1.1em solid $primary-color;
   border-bottom: 1.1em solid $secondary-color;

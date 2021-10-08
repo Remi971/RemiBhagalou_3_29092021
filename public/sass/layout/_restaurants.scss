@@ -1,8 +1,9 @@
 .resto {
-    padding: .5rem .25rem 2rem .25rem;
+    padding: 1rem;
     background-color: $light-primary;
     &--title {
-        margin: 1rem 0;
+        margin: 1rem;
+        
     }
     &__container {
         display: flex;
@@ -17,7 +18,6 @@
         &__card {
             display: grid;
             width: 100%;
-            max-width: 500px;
             min-width: 200px;
             background-color: white;
             grid-template-columns: 100%;
@@ -84,5 +84,13 @@
             }
         }
             
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .resto__container__card {
+        width: 45%;
+        min-width: 350px;
+        max-width: 700px;
     }
 }
