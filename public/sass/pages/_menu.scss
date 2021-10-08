@@ -40,8 +40,10 @@
     text-transform: uppercase;
     color: rgb(92, 92, 92);
     font-weight: 400;
+    width: 100%;
+    max-width: 800px;
     position: relative;
-    margin: 1.5rem 0;
+    margin: 2rem auto;
 
     &::before {
         content: '';
@@ -148,9 +150,16 @@
 
         &--coeur {
             position: relative;
-            width: 1.5rem;
-            height: 1.5rem;
+            width: 3rem;
+            height: 3rem;
+            &::after {
+                background-image: url('../../../assets/coeur_grey.png');
+            }
         }
+    }
+
+    &__entrees {
+        margin-bottom: 2rem;
     }
 
 

@@ -4,9 +4,9 @@
     &::before {
         content: '';
         position: absolute;
-        top: 1px;
-        left: 0;
-        width: 98%;
+        top: 3.75%;
+        left: 3.75%;
+        width: 92.5%;
         margin: auto;
         height: 0%;
         background: $gradient-reverse;
@@ -24,7 +24,7 @@
     }
     &:hover {
         &::before{
-            height: 98%;
+            height: 92.5%;
         }
         
 }

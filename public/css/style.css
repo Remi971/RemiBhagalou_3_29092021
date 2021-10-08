@@ -298,8 +298,8 @@
   position: absolute;
   top: 20%;
   right: 2rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -385,9 +385,9 @@
 .coeur::before {
   content: '';
   position: absolute;
-  top: 1px;
-  left: 0;
-  width: 98%;
+  top: 3.75%;
+  left: 3.75%;
+  width: 92.5%;
   margin: auto;
   height: 0%;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
@@ -408,7 +408,7 @@
 }
 
 .coeur:hover::before {
-  height: 98%;
+  height: 92.5%;
 }
 
 .loader-container {
@@ -545,8 +545,10 @@
   text-transform: uppercase;
   color: #5c5c5c;
   font-weight: 400;
+  width: 100%;
+  max-width: 800px;
   position: relative;
-  margin: 1.5rem 0;
+  margin: 2rem auto;
 }
 
 .nom::before {
@@ -714,8 +716,16 @@
 
 .carte__title--coeur {
   position: relative;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.carte__title--coeur::after {
+  background-image: url("../../../assets/coeur_grey.png");
+}
+
+.carte__entrees {
+  margin-bottom: 2rem;
 }
 
 .carte__btn {
