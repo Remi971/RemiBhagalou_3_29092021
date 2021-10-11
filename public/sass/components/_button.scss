@@ -11,6 +11,7 @@
     @include shadow-box(5px, 0%);
     opacity: 1;
     transition: all ease .3s;
+    text-decoration: none;
 
     &:hover {
         @include shadow-box(10px, 30%);

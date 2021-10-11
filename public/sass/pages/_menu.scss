@@ -125,6 +125,7 @@
 
 }
 
+
 @for $i from 1 through 10 {
     .card:nth-child(#{$i}n) {
         animation-delay: #{$i * 0.2}s;
@@ -175,6 +176,19 @@
 
 .footer {
     top: -3rem;
+}
+
+@media screen and (min-width: 800px) {
+    .carte {
+        padding: 2rem;
+    }
+    .card_container {
+        display: flex;
+        column-gap: 1rem;
+    }
+    .nom {
+        margin: 2rem;
+    }
 }
 
 @keyframes appearance {

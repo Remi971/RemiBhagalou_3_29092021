@@ -17,6 +17,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .title {
@@ -29,7 +30,8 @@
     animation: blurring ease 3s .7s forwards;
     max-width: 1200px;
     margin: auto;
-    transform: scale(0.8)
+    transform: scale(0.8);
+    
 }
 
 @keyframes blurring {
