@@ -448,8 +448,6 @@
   border-right: 1.1em solid #9356DC;
   border-bottom: 1.1em solid #FF79DA;
   border-left: 1.1em solid #99E2D0;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
   -webkit-animation: load8 .5s infinite linear;
           animation: load8 .5s infinite linear;
 }
@@ -722,7 +720,7 @@
 }
 
 .carte__title--coeur::after {
-  background-image: url("../../../assets/coeur_grey.png");
+  background-image: url("../../assets/coeur_grey.png");
 }
 
 .carte__entrees {
