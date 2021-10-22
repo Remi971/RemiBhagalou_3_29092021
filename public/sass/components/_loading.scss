@@ -1,3 +1,5 @@
+// load spinner
+
 .loader-container {
     position: relative;
     display: flex;
@@ -12,12 +14,6 @@
     visibility: visible;
 }
 
-.loader,
-.loader:after {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-}
 .loader {
   margin: 60px auto;
   font-size: 10px;
@@ -26,10 +22,11 @@
   border-right: 1.1em solid $primary-color;
   border-bottom: 1.1em solid $secondary-color;
   border-left: 1.1em solid $tertiary-color;
-  //transform: translateZ(0);
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
   animation: load8 .5s infinite linear;
 }
-
 @keyframes load8 {
   0% {
     transform: rotate(0deg);

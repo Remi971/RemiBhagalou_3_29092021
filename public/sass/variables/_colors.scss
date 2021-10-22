@@ -1,3 +1,5 @@
+// Variables couleurs
+
 $primary-color: #9356DC;
 $light-primary: lighten($primary-color, 38%);
 $secondary-color: #FF79DA;
@@ -8,6 +10,7 @@ $gradient: linear-gradient($secondary-color, $primary-color);
 $gradient-reverse: linear-gradient($primary-color, $secondary-color);
 $light-gradient: linear-gradient(lighten($secondary-color, 10%), lighten($primary-color, 10%));
 
+// Mixin box-shadow
 @mixin shadow-box($intensity, $dark) {
     box-shadow: 2px 2px $intensity darken($grey-color, $dark);
 }

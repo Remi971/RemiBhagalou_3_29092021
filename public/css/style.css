@@ -433,13 +433,6 @@
   visibility: visible;
 }
 
-.loader,
-.loader:after {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em;
-}
-
 .loader {
   margin: 60px auto;
   font-size: 10px;
@@ -448,6 +441,9 @@
   border-right: 1.1em solid #9356DC;
   border-bottom: 1.1em solid #FF79DA;
   border-left: 1.1em solid #99E2D0;
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
   -webkit-animation: load8 .5s infinite linear;
           animation: load8 .5s infinite linear;
 }

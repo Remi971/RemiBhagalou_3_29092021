@@ -1,4 +1,7 @@
+// Bouton j'aime
+
 .coeur {
+    // fond coloré
     &::before {
         content: '';
         position: absolute;
@@ -10,6 +13,7 @@
         background: $gradient-reverse;
         transition: all ease .4s;
     }
+    // mask coeur
     &::after {
         content: '';
         position: absolute;
